@@ -23,7 +23,7 @@ int main(void)
 	int idBaja;
 	int indiceModif;
 	int idModif;
-	int empleados =0;
+	int empleados =1;
 	eEmployee auxEmpleado;
 
 	eEmployee list[LEN];
