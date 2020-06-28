@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1593316650 source:c:\users\franco costanzo\desktop\abril facultad\tpdos\arrayemployees.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+
+1593316205 c:\users\franco costanzo\desktop\abril facultad\tpdos\arrayemployees.h
+
+1593316164 c:\users\franco costanzo\desktop\abril facultad\tpdos\validaciones.h
+
+1593316182 source:c:\users\franco costanzo\desktop\abril facultad\tpdos\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1593316287 source:c:\users\franco costanzo\desktop\abril facultad\tpdos\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"ArrayEmployees.h"
+	"validaciones.h"
+
