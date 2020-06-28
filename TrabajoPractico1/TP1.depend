@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1593318800 source:c:\users\franco costanzo\desktop\abril facultad\tp1\calculadora.c
+	<stdio.h>
+	<stdlib.h>
+
