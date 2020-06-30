@@ -5,13 +5,6 @@
 #include "ArrayEmployees.h"
 #include "validaciones.h"
 
-/** \brief Inicializa los empleados
- *
- * \param eEmployee list[]
- * \param int len
- * \return -1 en caso de error, 0 en caso de exito
- *
- */
 int initEmployees(eEmployee list[], int len)
 {
 	int retorno = -1;
@@ -23,18 +16,6 @@ int initEmployees(eEmployee list[], int len)
 	return retorno;
 }
 
-/** \brief Agrega un empleado
- *
- * \param eEmployee list[]
- * \param int len
- * \param int id
- * \param char name[]
- * \param char lastName[]
- * \param float salary
- * \param int sector
- * \return -1 en caso de error, 0 en caso de exito
- *
- */
 int addEmployee(eEmployee list[], int len, int id, char name[],char lastName[],float salary,int sector)
 {
 	int retorno = -1;
@@ -57,14 +38,6 @@ int addEmployee(eEmployee list[], int len, int id, char name[],char lastName[],f
 }
 
 
-/** \brief Busca un empleado por id
- *
- * \param eEmployee list[]
- * \param int len
- * \param int id
- * \return indice del empleado
- *
- */
 int findEmployeeById(eEmployee list[], int len,int id)
 {
 	int indice = -1;
@@ -79,15 +52,6 @@ int findEmployeeById(eEmployee list[], int len,int id)
 	return indice;
 }
 
-
-/** \brief Borra un empleado de la lista
- *
- * \param eEmployee list[]
- * \param int len
- * \param int id
- * \return -1 en caso de error, 0 en caso de exito
- *
- */
 int removeEmployee(eEmployee list[], int len, int id)
 {
 	int retorno =-1;
@@ -103,14 +67,6 @@ int removeEmployee(eEmployee list[], int len, int id)
 }
 
 
-/** \brief Ordena los empleados segun orden
- *
- * \param eEmployee list[]
- * \param int len
- * \param int order
- * \return -1 en caso de error, 0 en caso de exito
- *
- */
 int sortEmployees(eEmployee list[], int len, int order)
 {
 	int retorno =-1;
@@ -165,13 +121,6 @@ int sortEmployees(eEmployee list[], int len, int order)
 	return retorno;
 }
 
-/** \brief Imprime la lista de empleados
- *
- * \param eEmployee list[]
- * \param int lenght
- * \return -1 en caso de error, 0 en caso de exito
- *
- */
 int printEmployees(eEmployee list[], int lenght)
 {
 	int retorno =-1;
