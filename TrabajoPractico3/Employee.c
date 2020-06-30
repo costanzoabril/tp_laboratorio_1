@@ -228,8 +228,8 @@ int employee_SearchForId(LinkedList* pArrayListEmployee, int id)
 		   idAux == id)
 		{
 			retorno = index;
-		}
-		break;
+			break;
+		}		
 	}
 	return retorno;
 }
