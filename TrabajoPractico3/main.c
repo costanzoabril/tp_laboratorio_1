@@ -15,25 +15,39 @@ int main()
         switch(menu())
         {
             case 1:
-               if(controller_loadFromText("data.csv",listaEmpleados))
-               {
-                   printf("Problemas al cargar los empleados.\n");
-               }
-               else
-               {
-                   printf("Empleados cargados correctamente.\n");
-                   flag = 1;
-               }
-                break;
-            case 2:
-                if(controller_loadFromBinary("data.bin", listaEmpleados))
+                if(flag == 0)
                 {
-                    printf("Problemas al cargar los empleados.\n");
+                    if(controller_loadFromText("data.csv",listaEmpleados))
+                    {
+                        printf("Problemas al cargar los empleados.\n");
+                    }
+                    else
+                    {
+                        printf("Empleados cargados correctamente.\n");
+                        flag = 1;
+                    }
                 }
                 else
                 {
-                    printf("Empleados cargados correctamente.\n");
-                    flag = 1;
+                    printf("Los datos ya estan cargados en el archivo binario.\n");
+                }
+                break;
+            case 2:
+                if(flag == 0)
+                {
+                    if(controller_loadFromBinary("data.bin", listaEmpleados))
+                    {
+                        printf("Problemas al cargar los empleados.\n");
+                    }
+                    else
+                    {
+                        printf("Empleados cargados correctamente.\n");
+                        flag = 1;
+                    }
+                }
+                else
+                {
+                    printf("Los datos ya estan cargados en el archivo de texto.\n");
                 }
                 break;
             case 3:
@@ -43,7 +57,7 @@ int main()
                 }
                 break;
             case 4:
-                if(flag == 1)
+                if(!ll_isEmpty(listaEmpleados))
                 {
                     controller_editEmployee(listaEmpleados);
                 }
@@ -53,7 +67,7 @@ int main()
                 }
                 break;
             case 5:
-                if(flag == 1)
+                if(!ll_isEmpty(listaEmpleados))
                 {
                     controller_removeEmployee(listaEmpleados);
                 }
@@ -63,7 +77,7 @@ int main()
                 }
                 break;
             case 6:
-                 if(flag == 1)
+                 if(!ll_isEmpty(listaEmpleados))
                 {
                     controller_ListEmployee(listaEmpleados);
                 }
@@ -73,7 +87,7 @@ int main()
                 }
                 break;
             case 7:
-                if(flag == 1)
+                if(!ll_isEmpty(listaEmpleados))
                 {
                     controller_sortEmployee(listaEmpleados);
                 }
@@ -83,7 +97,7 @@ int main()
                 }
                 break;
             case 8:
-                if(flag == 1)
+                if(!ll_isEmpty(listaEmpleados))
                 {
                     if(!controller_saveAsText("data.csv", listaEmpleados))
                     {
@@ -100,7 +114,7 @@ int main()
                 }
                 break;
             case 9:
-                if(flag == 1)
+                if(!ll_isEmpty(listaEmpleados))
                 {
                      if(!controller_saveAsBinary("data.bin", listaEmpleados))
                     {
