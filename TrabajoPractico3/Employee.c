@@ -229,6 +229,7 @@ int employee_SearchForId(LinkedList* pArrayListEmployee, int id)
 		{
 			retorno = index;
 		}
+		break;
 	}
 	return retorno;
 }
