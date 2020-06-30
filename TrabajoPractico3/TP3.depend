@@ -266,7 +266,7 @@
 
 1533133022 c:\users\franco costanzo\desktop\abril facultad\trabajos practicos lab\tp3\parser.h
 
-1593313779 source:c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\controller.c
+1593313975 source:c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\controller.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
@@ -276,20 +276,20 @@
 1591924063 c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\linkedlist.h
 	"validaciones.h"
 
-1593310750 c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\validaciones.h
+1593480618 c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\validaciones.h
 
-1593312405 c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\employee.h
+1593480850 c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\employee.h
 	"LinkedList.h"
 
 1533133022 c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\parser.h
 
-1593312551 source:c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\employee.c
+1593552072 source:c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\employee.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Employee.h"
 
-1593313252 source:c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\main.c
+1593552424 source:c:\users\franco costanzo\desktop\abril\trabajos practicos lab\tp3\main.c
 	<stdio.h>
 	<stdlib.h>
 	"LinkedList.h"
