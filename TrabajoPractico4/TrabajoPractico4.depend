@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1593919361 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\controller.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Drug.h"
+	"parser.h"
+	"menus.h"
+
+1591924063 c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\linkedlist.h
+	"validaciones.h"
+
+1593482515 c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\validaciones.h
+
+1593912597 c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\drug.h
+	"LinkedList.h"
+
+1593396535 c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\parser.h
+
+1593989159 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Drug.h"
+	"menus.h"
+
+1593916632 c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\controller.h
+
+1593913404 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Drug.h"
+
+1593912193 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1591991431 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\validaciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"validaciones.h"
+
+1593914639 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\drug.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Drug.h"
+
+1593910095 c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\menus.h
+
+1593918638 source:c:\users\franco costanzo\desktop\abril facultad\trabajopractico4\menus.c
+	<stdio.h>
+	<stdlib.h>
+	"validaciones.h"
+	"menus.h"
+
