@@ -118,6 +118,7 @@ int main()
                             utn_getEntero(&from, 2, "Ingrese desde que id quiere copiar: ", "\nError\n", 1, ll_len(lista));
                             utn_getEntero(&to, 2, "Ingrese hasta que id quiere copiar: ", "\nError\n", 1, ll_len(lista));
 
+                            from = from -2;
                             listaSeguridad = ll_subList(lista, from, to);
 
                             if(listaSeguridad != NULL)
